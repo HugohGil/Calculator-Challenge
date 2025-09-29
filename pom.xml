@@ -13,10 +13,11 @@
     <groupId>com.hugo.challenge</groupId>
     <artifactId>calculator-challenge</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
     <modules>
         <module>calculator</module>
         <module>rest</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -24,5 +25,4 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>
